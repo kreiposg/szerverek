@@ -6,7 +6,7 @@
 ** Use VBoxManage or the VirtualBox Manager GUI to make changes.
 -->
 <VirtualBox xmlns="http://www.virtualbox.org/" version="1.19-windows">
-  <Machine uuid="{a1d31b2d-b64a-443f-9890-f3293fa8b649}" name="kshubuntu" OSType="Ubuntu_64" snapshotFolder="Snapshots" lastStateChange="2025-03-03T04:21:24Z">
+  <Machine uuid="{a1d31b2d-b64a-443f-9890-f3293fa8b649}" name="kshubuntu" OSType="Ubuntu_64" snapshotFolder="Snapshots" lastStateChange="2025-03-03T04:21:39Z">
     <MediaRegistry>
       <HardDisks>
         <HardDisk uuid="{79a86a11-c9d7-4d2d-9258-0c4b98abfd5f}" location="kshubuntu.vdi" format="VDI" type="Normal"/>
@@ -51,11 +51,6 @@
       <Clipboard/>
       <GuestProperties>
         <GuestProperty name="/VirtualBox/HostInfo/GUI/LanguageID" value="hu_HU" timestamp="1740975699785171900" flags="RDONLYGUEST"/>
-        <GuestProperty name="/VirtualBox/HostInfo/VBoxRev" value="159484" timestamp="1740960847854470702" flags="TRANSIENT, RDONLYGUEST"/>
-        <GuestProperty name="/VirtualBox/HostInfo/VBoxVer" value="7.0.12" timestamp="1740960847854470700" flags="TRANSIENT, RDONLYGUEST"/>
-        <GuestProperty name="/VirtualBox/HostInfo/VBoxVerExt" value="7.0.12" timestamp="1740960847854470701" flags="TRANSIENT, RDONLYGUEST"/>
-        <GuestProperty name="/VirtualBox/VMInfo/ResetCounter" value="1" timestamp="1740843846090922200" flags="TRANSIENT, RDONLYGUEST"/>
-        <GuestProperty name="/VirtualBox/VMInfo/ResumeCounter" value="3" timestamp="1740972577006096900" flags="TRANSIENT, RDONLYGUEST"/>
       </GuestProperties>
       <StorageControllers>
         <StorageController name="IDE" type="PIIX4" PortCount="2" useHostIOCache="true" Bootable="true">

@@ -39,11 +39,11 @@
       <Network>
         <Adapter slot="0" enabled="true" MACAddress="080027BE91B8" type="82540EM">
           <DisabledModes>
-            <NAT localhost-reachable="true"/>
+            <BridgedInterface name="Intel(R) Wireless-N 7265"/>
             <InternalNetwork name="intnet"/>
             <NATNetwork name="NatNetwork"/>
           </DisabledModes>
-          <BridgedInterface name="Intel(R) Wireless-N 7265"/>
+          <NAT localhost-reachable="true"/>
         </Adapter>
       </Network>
       <AudioAdapter codec="AD1980" useDefault="true" driver="WAS" enabled="true" enabledOut="true"/>

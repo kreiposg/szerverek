@@ -39,7 +39,12 @@
       </USB>
       <Network>
         <Adapter slot="0" enabled="true" MACAddress="080027AE2B16" type="82540EM">
-          <NAT localhost-reachable="true"/>
+          <DisabledModes>
+            <NAT localhost-reachable="true"/>
+            <InternalNetwork name="intnet"/>
+            <NATNetwork name="NatNetwork"/>
+          </DisabledModes>
+          <BridgedInterface name="Intel(R) Ethernet Connection (3) I218-LM"/>
         </Adapter>
       </Network>
       <AudioAdapter controller="HDA" useDefault="true" driver="WAS" enabled="true" enabledOut="true"/>
